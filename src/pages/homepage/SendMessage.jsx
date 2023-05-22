@@ -17,8 +17,8 @@ function SendMessage() {
   }
 
   return (
-    <div className="text-center mt-16" onSubmit={handleSubmit}>
-      <h1 className="text-[#120F2D] text-2xl font-semibold">Yordam kerakmi</h1>
+    <div className="text-center mt-16 md:mt-28 md:text-left" onSubmit={handleSubmit}>
+      <p className="text-[#120F2D] text-2xl font-semibold md:text-3xl md:ml-6">Yordam kerakmi</p>
       <form action="" className="text-center pb-12 mx-6">
         <div className="flex justify-between">
           <input

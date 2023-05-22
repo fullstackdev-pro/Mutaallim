@@ -13,12 +13,12 @@ function InstructorsSection() {
           to="/aboutUs"
           className="cursor-pointer text-2xl text-[#F14D5D] font-semibold border-dashed border-b-2 border-[#F14D5D]"
         >
-          Ustozlar
+          Bizning Ustozlarimiz
         </Link>
       </div>
       <Swiper
         spaceBetween={50}
-        slidesPerView={1}
+        slidesPerView={window.innerWidth > 991 ? 3 : 1}
         loop={true}
         autoplay={{
           delay: 3000,
